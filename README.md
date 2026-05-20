@@ -640,19 +640,13 @@ The following are documented gaps. Contributions welcome.
 
 ## ☕ 如果内容对你有帮助，欢迎随缘支持一下
 
-<div align="center">
-
-<img width="1320" alt="赞赏码横版" src="https://github.com/user-attachments/assets/0484300a-95e8-4cb3-ad73-478ba9bd19d6" />
-
-</div>
-
 ---
 
 <div align="center">
 
 | 微信赞赏 | 支付宝赞赏 |
 | --- | --- |
-| <img width="320" alt="微信赞赏" src="https://github.com/user-attachments/assets/83c101e7-2370-46e9-a840-cb506df98cf4" /> | <img width="320" alt="支付宝赞赏" src="https://github.com/user-attachments/assets/0484300a-95e8-4cb3-ad73-478ba9bd19d6" /> |
+| <img width="320" alt="微信赞赏" src="https://github.com/user-attachments/assets/83c101e7-2370-46e9-a840-cb506df98cf4" /> | <img width="320" alt="粉丝要求！" src="https://github.com/user-attachments/assets/0484300a-95e8-4cb3-ad73-478ba9bd19d6" /> |
 
 </div>
 
