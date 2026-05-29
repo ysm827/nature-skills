@@ -1,5 +1,5 @@
 name: nature-polishing
-version: 6.0.0
+version: 6.1.0
 description: >
   Declarative manifest for the static/dynamic split. SKILL.md uses this to
   decide which fragments to load for a given polishing request.
@@ -78,3 +78,5 @@ references:
       path: references/style-guardrails.md
     - condition: needs deeper writing-strategy principles
       path: references/writing-strategy.md
+    - condition: needs LaTeX layout/typesetting help (排版) — loose or sparse pages, stranded section headings, figures that don't fill the page or split across pages, "Float too large", multi-panel figure arrangement, or Supplementary Information that looks empty
+      path: references/latex-layout.md

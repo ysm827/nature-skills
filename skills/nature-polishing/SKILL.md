@@ -1,7 +1,7 @@
 ---
 name: nature-polishing
-description: Polish, restructure, or translate academic prose into Nature-leaning English using writing-strategy principles, curated Nature/Nature Communications article patterns, and phrase-level support from Academic Phrasebank. Use whenever the user asks to polish a manuscript paragraph, abstract, introduction, results, discussion, conclusion, title, methods section, or Chinese academic draft for publication-quality English.
-version: 6.0.0
+description: Polish, restructure, or translate academic prose into Nature-leaning English using writing-strategy principles, curated Nature/Nature Communications article patterns, and phrase-level support from Academic Phrasebank. Use whenever the user asks to polish a manuscript paragraph, abstract, introduction, results, discussion, conclusion, title, methods section, or Chinese academic draft for publication-quality English. Also covers LaTeX layout/typesetting (排版) fixes — loose or sparse pages, stranded section headings, figures that don't fill the page or split across pages, "Float too large", multi-panel figure arrangement, and Supplementary Information that looks empty — via references/latex-layout.md.
+version: 6.1.0
 author: Yuan1z skill, refactored into static/dynamic layers
 ---
 
@@ -56,6 +56,16 @@ If a paragraph's structural problem cannot be fixed without inventing content, f
 ### 5. Reach for references only when needed
 
 The files under `references/` are deep references, not defaults. Open them on demand per the `references.on_demand` table in the manifest, for example when the user explicitly asks for phrasebank-style alternatives or a stricter style audit.
+
+**Layout/typesetting (排版) requests are different.** If the user asks to fix
+*placement* rather than wording — loose/sparse pages, stranded headings, figures
+that don't fill the page or split across pages, "Float too large", multi-panel
+arrangement, sparse Supplementary Information — skip the prose axes (paper_type,
+section, language, journal) and load `references/latex-layout.md` directly. That
+file is self-contained: it carries the diagnosis workflow (render → contact-sheet →
+read the log), the float-glue and `[H]`/`\clearpage`/`placeins` patterns, and the
+"regenerate wide figures taller at the source" rule. Always compile and visually
+inspect rendered pages before and after — never judge layout from the `.tex` alone.
 
 ## Why this split
 
