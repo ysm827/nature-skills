@@ -52,7 +52,9 @@
 ```text
 nature-statistics/
 ├── README.md
+├── README_EN.md
 ├── SKILL.md
+├── manifest.yaml
 └── references/
     ├── source-basis.md
     ├── statistical-reporting.md

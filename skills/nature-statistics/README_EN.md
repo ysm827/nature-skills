@@ -54,6 +54,15 @@ Use nature-statistics to answer this reviewer comment about unclear statistical 
 For drafting-only requests, the skill can return a shorter `Draft Statistical
 analysis` plus `Reporting notes`.
 
+## Manifest / On-Demand References
+
+`manifest.yaml` keeps the core statistics workflow lightweight:
+
+- `source-basis.md` and `statistical-reporting.md` are always loaded.
+- `common-failure-modes.md`, `figure-statistics.md`, and
+  `reviewer-checklist.md` are loaded only when nested data, figure legends,
+  reviewer response, or final audit QA requires them.
+
 ## Dependencies / API Keys / Local Environment
 
 No external API key is required by default. Statistical software names, package
