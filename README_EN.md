@@ -27,7 +27,8 @@
 - If you have a concrete need, please open an issue. If we think the request is
   meaningful and feasible, we will try to move it forward. Pull requests are also
   welcome; please follow the contribution format later in this document so that
-  reviews and merges can be handled efficiently.
+  reviews, understanding, and merges can be handled efficiently. Please also
+  record a matching usage tutorial for each PR.
 - `nature-skills` collects general-purpose research skills for AI scholars
   worldwide. It is an early form of a "skill journal": the goal is not empty
   storytelling, but solving real domain problems.
@@ -396,7 +397,14 @@ Each `README.md` / `README_EN.md` should use a consistent information structure 
 ## Related Skills
 ```
 
-### 3. `SKILL.md` Frontmatter Template
+### 3. Record a Usage Tutorial
+
+When submitting a PR, please also record a short usage tutorial explaining what
+problem the skill solves, how to trigger it, what inputs it needs, and what
+outputs it produces. Add the video, screencast link, or public tutorial URL to
+the PR description.
+
+### 4. `SKILL.md` Frontmatter Template
 
 ```yaml
 ---
@@ -407,7 +415,7 @@ description: >-
 ---
 ```
 
-### 4. Update Skill Index
+### 5. Update Skill Index
 
 After adding a skill, update the [Skill Index](#skill-index) table:
 
@@ -415,7 +423,7 @@ After adding a skill, update the [Skill Index](#skill-index) table:
 | [`nature-<topic>`](skills/nature-<topic>/README_EN.md) | Draft / Stable | One-sentence purpose | Trigger terms | [Details](skills/nature-<topic>/README_EN.md) |
 ```
 
-### 5. Status Labels
+### 6. Status Labels
 
 | Status | Meaning |
 |---|---|
