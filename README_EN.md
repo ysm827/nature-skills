@@ -50,13 +50,31 @@ Knowledge Planet name: **Nature Skills and the Philosophy Behind It**.
 
 <img width="300" height="400" alt="Nature Skills Knowledge Planet" src="https://github.com/user-attachments/assets/64e37909-0a48-4bfb-8471-c2aff971a0f6" />
 
-### 1.3 Repository Store
+### 1.3 Nature AI GPT / Claude Top-ups and Ready-Made Accounts
 
-- **Services**: ChatGPT Plus/Pro top-ups and ready-made accounts, with official invoices and optional warranty coverage at checkout.
-- **Service page**: [https://apiciyuan.top/cat/3](https://apiciyuan.top/cat/3)
-- **Customer-service WeChat**: `naturegpt888` (consultation / invoices)
+We carefully screen service channels and provide legitimate top-up channels and
+support. Visit **Nature AI Recharge Card Store**:
 
-<img width="325" height="256" alt="ChatGPT Plus and Pro services" src="https://github.com/user-attachments/assets/0c7bc267-cedb-4c54-bdb5-a3b9a6a51848" />
+<table>
+  <tr>
+    <td align="center" width="68%">
+      <a href="https://apiciyuan.top/">
+        <img src="assets/nature-ai-gpt-claude-service.png" alt="Nature AI GPT and Claude top-up and ready-made account services" width="100%">
+      </a>
+      <br>
+      <strong>Nature AI Recharge Card Store</strong>
+      <br>
+      <a href="https://apiciyuan.top/">https://apiciyuan.top/</a>
+    </td>
+    <td align="center" width="32%">
+      <img src="assets/nature-ai-wechat.jpg" alt="Nature AI customer-service WeChat QR code" width="280">
+      <br>
+      <strong>WeChat Support</strong>
+      <br>
+      <sub>Scan to add</sub>
+    </td>
+  </tr>
+</table>
 
 ## 2. Nature Skills Core Developers
 
